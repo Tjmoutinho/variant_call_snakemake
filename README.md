@@ -2,7 +2,7 @@
 Snakemake pipeline to call variants using illumina fastq data
 
 # Create the docker image:
-docker create vcf_sm:latest
+docker build vcf_sm:latest
 
 # Execute using a command similar to this:
 docker run -v /path/to/repo/variant_call_snakemake:/usr/src/vcf vcf:latest snakemake --cores all
