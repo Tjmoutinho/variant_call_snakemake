@@ -1,3 +1,6 @@
+# Author: Thomas J Moutinho Jr
+# Date: 3/24/24
+
 configfile: "config.yaml"
 
 def get_fastq_paths(sample, pair):
