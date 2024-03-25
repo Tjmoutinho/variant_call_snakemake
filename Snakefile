@@ -203,19 +203,3 @@ rule multiqc:
     threads: 8
     shell:
         "multiqc results/qc/ {input.snpeff_report} --filename {output} --verbose"
-
-
-# rule bcftools_call:
-#     input:
-#         fa=config["reference"],
-#         bam=expand("marked_reads/{sample}.bam", sample=config["samples"]),
-#         bai=expand("marked_reads/{sample}.bam.bai", sample=config["samples"])
-#     output:
-#         expand("calls/{sample}.vcf", sample=config["samples"])
-#     params:
-#         rate=config["prior_mutation_rate"]
-#     log:
-#         "logs/bcftools_call/all.log"
-#     shell:
-#         "(bcftools mpileup -f {input.fa} {input.bam} | "
-#         "bcftools call -mv -P {params.rate} - > {output}) 2> {log}"
