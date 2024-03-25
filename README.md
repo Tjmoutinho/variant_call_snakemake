@@ -5,13 +5,13 @@ Snakemake pipeline to call variants using illumina fastq data
 docker create vcf_sm:latest
 
 # Execute using a command similar to this:
-docker run -v /home/tjmoutinho/scripts/variant_call_snakemake:/usr/src/vcf vcf:latest snakemake --cores all
+docker run -v /path/to/repo/variant_call_snakemake:/usr/src/vcf vcf:latest snakemake --cores all
 
-You will need to /path/to/repo/
+You will need to replace '/path/to/repo/' with your actual path
 This command will create a directory called 'results' with all of the output files.
 
 # Run pytest using:
-docker run -v /home/tjmoutinho/scripts/variant_call_snakemake:/usr/src/vcf vcf:latest pytest test.py
+docker run -v /path/to/repo/variant_call_snakemake:/usr/src/vcf vcf:latest pytest test.py
 
 # Results:
 results_final/ Contains the results of this pipeline when run with the data and config file provided. 
