@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+SnpEff	all_sections	sample1_snpEff_report	/usr/src/vcf/results/reports/sample1_snpEff_report.csv
+FastQC	all_sections	sample1_R2	/usr/src/vcf/results/qc/sample1_R2_after_fastqc.zip
+FastQC	all_sections	sample1_R1	/usr/src/vcf/results/qc/sample1_R1_after_fastqc.zip

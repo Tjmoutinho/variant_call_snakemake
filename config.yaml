@@ -1,0 +1,6 @@
+samples:
+  sample1:
+    R1: "data/sample.R1.paired.fq.gz"
+    R2: "data/sample.R2.paired.fq.gz"
+reference: "data/MN908947.3.fasta"
+vcf_quality_threshold: 20 #phred score

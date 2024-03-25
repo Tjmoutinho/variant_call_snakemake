@@ -1,0 +1,4 @@
+Sample	SnpEff_mqc-generalstats-snpeff-Number_of_variants_before_filter	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-median_sequence_length	SnpEff_mqc-generalstats-snpeff-Change_rate	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	SnpEff_mqc-generalstats-snpeff-Ts_Tv_ratio
+sample1_R1		34.86322386890383	75		10.0	15317.0	39.0	74.64738525820984	
+sample1_R2		35.607494940262455	75		0.0	15317.0	38.0	74.72886335444278	
+sample1_snpEff_report	41.0			729.0					1.571429
